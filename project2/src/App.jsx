@@ -1,15 +1,14 @@
 import { useState } from 'react'
-import Counter from './Counter'
-
+import LikeButton from './LikeButton'
 function App() {
 
 
   return (
     <>
-      <h1>
+      <h4>
         ROHIT DEKA
-      </h1>
-      <Counter/>
+      </h4>
+      <LikeButton/>
     </>
   )
 }
