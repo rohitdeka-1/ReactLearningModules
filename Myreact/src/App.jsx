@@ -1,12 +1,10 @@
-import './App.css'
-
-import ProductTab from './ProductTab';
-
-
+import Button from './Button';
+import FormData from './Form'
 function App() {
   return (
     <>
-    <ProductTab/>
+    <Button/>
+    <FormData/>
     </>
   );
 }
