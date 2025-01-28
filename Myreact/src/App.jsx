@@ -1,12 +1,11 @@
-import Button from './Button';
-import FormData from './Form'
-function App() {
+import React from 'react'
+import Navbar from './components/Navbar'
+const App = () => {
   return (
     <>
-    <Button/>
-    <FormData/>
+      <Navbar/>
     </>
-  );
+  )
 }
 
 export default App
